@@ -7,9 +7,9 @@ body {
 }
 
 .header {
-  max-width: 1000px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../images/Arizona.jpg");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
@@ -70,4 +70,26 @@ body {
     font-size: 12px;
     padding: 12px 20px;
   }
+}
+
+footer .grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  background-image: url("../images/Bryce 1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  column-gap: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
 }
