@@ -75,7 +75,8 @@ body {
 footer .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  background-image: url("../images/Bryce 1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/Bryce 1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,6 +90,9 @@ footer a {
   color: white;
 }
 
+footer li {
+  margin-bottom: 5px;
+}
 footer ul {
   list-style: none;
   padding: 0;
