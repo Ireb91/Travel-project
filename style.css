@@ -49,29 +49,6 @@ body {
   letter-spacing: 3px;
 }
 
-@media (max-width: 1000px) {
-  .header {
-    padding: 100px;
-  }
-  .header h1 {
-    font-size: 45px;
-    margin-bottom: 15px;
-  }
-
-  .header h2 {
-    font-size: 20px;
-  }
-
-  .header h3 {
-    font-size: 25px;
-  }
-
-  .header a {
-    font-size: 12px;
-    padding: 12px 20px;
-  }
-}
-
 footer .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
@@ -96,4 +73,39 @@ footer li {
 footer ul {
   list-style: none;
   padding: 0;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding: 100px;
+  }
+  .header h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+
+  .header h2 {
+    font-size: 20px;
+  }
+
+  .header h3 {
+    font-size: 25px;
+  }
+
+  .header a {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+
+  footer h2 {
+    font-size: 20px;
+  }
+
+  footer a,
+  p {
+    font-size: 15px;
+  }
+  footer .grid {
+    padding: 50px;
+  }
 }
