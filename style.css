@@ -49,40 +49,93 @@ body {
   letter-spacing: 3px;
 }
 
-main .grid {
+.main-grid {
+  max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
   text-align: justify;
   margin: 50px;
-  padding: 50px;
+  padding: 50px 70px;
 }
 
-main .grid img {
+.main-grid img {
   display: block;
   margin: 0 auto;
 }
 
-main h2 {
-  opacity: 0.3;
+.opaque-title {
+  opacity: 0.4;
   font-size: 18px;
   letter-spacing: 3px;
   margin-bottom: 0px;
 }
 
-main h3 {
+.bold-title {
   font-size: 40px;
   font-weight: 800;
   margin: 10px auto 30px;
+  color: #272044;
 }
 
 main p {
-  opacity: 0.7;
+  opacity: 0.8;
   line-height: 1.5;
   font-weight: 500;
+  color: #272044;
 }
 
-footer .grid {
+.secondary-section {
+  background-color: #f8f8f8;
+  padding-top: 50px;
+  color: #272044;
+}
+
+.secondary-section h2 {
+  margin-top: 50px;
+}
+
+.secondary-section h3 {
+  margin-top: 10px;
+}
+.text-align {
+  text-align: center;
+}
+.grid-3columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px 70px;
+  grid-gap: 70px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+}
+
+.card h3 {
+  font-size: 25px;
+}
+
+.card p {
+  opacity: 0.8;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.card-button {
+  text-decoration: none;
+  background-color: #a6bca3;
+  color: white;
+  display: block;
+  margin: 40px 10px 0px 10px;
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.footer-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -111,6 +164,7 @@ footer ul {
 .responsive-img {
   max-width: 100%;
 }
+
 @media (max-width: 1000px) {
   .header {
     padding: 50px;
