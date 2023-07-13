@@ -66,13 +66,13 @@ body {
 
 .opaque-title {
   opacity: 0.4;
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 3px;
   margin-bottom: 0px;
 }
 
 .bold-title {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 800;
   margin: 10px auto 30px;
   color: #272044;
@@ -80,6 +80,7 @@ body {
 
 main p {
   opacity: 0.8;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: 500;
   color: #272044;
@@ -101,26 +102,29 @@ main p {
 .text-align {
   text-align: center;
 }
+
 .grid-3columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 15px 70px 130px;
   grid-gap: 70px;
+  padding: 20px 120px 120px;
 }
 
 .card {
   background-color: white;
-  padding: 30px;
+  padding: 40px;
 }
 
 .card h3 {
-  font-size: 22px;
+  font-size: 30px;
+  margin-top: 30px;
 }
 
 .card p {
   opacity: 0.8;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 .card-button {
@@ -133,6 +137,10 @@ main p {
   text-align: center;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+footer {
+  font-size: 20px;
 }
 
 .footer-grid {
@@ -163,50 +171,4 @@ footer ul {
 
 .responsive-img {
   max-width: 100%;
-}
-
-@media (max-width: 1000px) {
-  .header {
-    padding: 50px;
-  }
-  .header h1 {
-    font-size: 40px;
-    margin-bottom: 15px;
-  }
-
-  .header h2 {
-    font-size: 20px;
-  }
-
-  .header h3 {
-    font-size: 25px;
-  }
-
-  .header a {
-    font-size: 12px;
-    padding: 12px 20px;
-  }
-
-  footer h2 {
-    font-size: 20px;
-  }
-
-  footer a,
-  p {
-    font-size: 15px;
-  }
-  footer .grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 50px;
-  }
-
-  main .grid {
-    grid-template-columns: 1fr;
-    padding: 0;
-  }
-
-  main .grid h3 {
-    font-size: 25px;
-  }
 }
