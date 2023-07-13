@@ -102,7 +102,7 @@ main p {
 }
 
 .secondary-section h2 {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .secondary-section h3 {
@@ -115,23 +115,23 @@ main p {
 .grid-3columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 70px;
-  padding: 20px 120px 120px;
+  grid-gap: 60px;
+  padding: 20px 100px 100px;
 }
 
 .card {
   background-color: white;
-  padding: 40px;
+  padding: 30px;
 }
 
 .card h3 {
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 30px;
 }
 
 .card p {
   opacity: 0.8;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.5;
   font-weight: 500;
 }
