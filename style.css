@@ -75,13 +75,13 @@ section {
 
 .opaque-title {
   opacity: 0.4;
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: 3px;
   margin-bottom: 0px;
 }
 
 .bold-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
   margin: 10px auto 30px;
   color: #272044;
@@ -89,7 +89,7 @@ section {
 
 main p {
   opacity: 0.8;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   font-weight: 500;
   color: #272044;
