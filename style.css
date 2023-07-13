@@ -6,6 +6,15 @@ body {
   font-family: var(--default-font-family);
 }
 
+.container {
+  margin: 0 auto;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../images/Arizona.jpg");
@@ -171,4 +180,8 @@ footer ul {
 
 .responsive-img {
   max-width: 100%;
+  display: block;
+}
+
+@media (max-width: 1000px) {
 }
