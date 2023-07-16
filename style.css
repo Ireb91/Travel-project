@@ -121,9 +121,23 @@ main p {
 
 .card {
   background-color: white;
-  padding: 30px;
 }
 
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card img {
+  aspect-ratio: 7/5;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 7/5;
+}
+.card-body {
+  padding: 0px 30px 40px 30px;
+}
 .card h3 {
   font-size: 25px;
   margin-top: 30px;
@@ -179,7 +193,7 @@ footer ul {
 }
 
 .responsive-img {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -254,5 +268,20 @@ footer ul {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 15px;
+  }
+
+  .card iframe {
+    display: none;
+  }
+
+  .card-header{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .card img{
+    aspect-ratio:initial;
+  }
+
   }
 }
