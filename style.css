@@ -162,6 +162,10 @@ main p {
   letter-spacing: 2px;
 }
 
+.instragram-section h2 {
+  margin-top: 80px;
+}
+
 footer {
   font-size: 15px;
 }
@@ -274,14 +278,12 @@ footer ul {
     display: none;
   }
 
-  .card-header{
+  .card-header {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .card img{
-    aspect-ratio:initial;
-  }
-
+  .card img {
+    aspect-ratio: initial;
   }
 }
